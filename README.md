@@ -16,10 +16,12 @@ How to use
 In your local prerender project run:
 
     $ npm install prerender-mongodb-cache --save
-    
+
 Then in the server.js that initializes the prerender:
 
     server.use(require('prerender-mongodb-cache'));
+
+Refreshing cache: You can refresh the cache by sending a POST request instead of GET.
 
 Configuration
 -------------

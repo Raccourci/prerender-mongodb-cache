@@ -21,7 +21,11 @@ Then in the server.js that initializes the prerender:
 
     server.use(require('prerender-mongodb-cache'));
 
-Refreshing cache: You can refresh the cache by sending a POST request instead of GET.
+Refreshing cache: You can refresh the cache by sending a `POST`
+request for a given URI.
+
+Deleting from cache: Similarly, you can delete an item from cache by
+making a `DELETE` request for a given URI.
 
 Configuration
 -------------

@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://gitlab.raccourci.dev/angular/prerender-mongo-cache.git"
+    "url": "git://github.com/Raccourci/prerender-mongodb-cache.git"
   },
   "keywords": [
     "prerender",
@@ -15,9 +15,9 @@
   "author": "Lammert Westerhoff",
   "license": "MIT",
   "bugs": {
-    "url": "http://gitlab.raccourci.dev/angular/prerender-mongo-cache/issues"
+    "url": "https://github.com/Raccourci/prerender-mongodb-cache/issues"
   },
-  "homepage": "http://gitlab.raccourci.dev/angular/prerender-mongo-cache",
+  "homepage": "https://github.com/Raccourci/prerender-mongodb-cache",
   "dependencies": {
     "cheerio": "^0.19.0",
     "lodash": "^3.6.0",

@@ -1,6 +1,6 @@
 {
   "name": "prerender-mongodb-cache",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Prerender plugin for MongoDB caching",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
   "dependencies": {
     "cheerio": "^0.19.0",
     "lodash": "^3.6.0",
-    "mongodb": "~2.0.0",
+    "mongodb": "~2.2.16",
     "q": "^1.2.0"
   }
 }
